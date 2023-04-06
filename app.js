@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3500;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("test-hello-oo");
+  res.send("test-hello-oo test aws");
 });
 
 app.get("/hat", (req, res) => {
